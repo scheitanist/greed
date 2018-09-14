@@ -18,10 +18,10 @@ window.addEventListener('DOMContentLoaded', function () {
                 slider.insertBefore(prev, items[0]);
                 slider.insertBefore(next, items[0]);
 
-                prev.className = 'control _prev';
-                next.className = 'control _next';
+                prev.className = 'slider__control _prev';
+                next.className = 'slider__control _next';
 
-                let controls = slider.querySelectorAll('.control');
+                let controls = slider.querySelectorAll('.slider__control');
 
                 for (let control of controls) {
                     control.addEventListener('click', function (event) {
@@ -56,8 +56,6 @@ window.addEventListener('DOMContentLoaded', function () {
                     })
                 }
 
-                prev.innerHTML = '&#8592;';
-                next.innerHTML = '&#8594;';
             }
 
             arrows();
