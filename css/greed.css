@@ -1,4 +1,4 @@
-
+/*Reset*/
 * {
     box-sizing: border-box;
     }
@@ -7,11 +7,16 @@
     box-sizing: border-box;
     }
 
+:root {
+    --pam: 10px;
+    }
+
 /*Grid*/
 
 .grid {
     position: relative;
-    margin: 0 -15px;
+    margin: 0 calc(0px - var(--pam));
+    /*margin: 0 -15px;*/
     box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
@@ -19,17 +24,22 @@
     }
 	.grid__item {
 		position: relative;
-		padding: 0 15px;
+        margin-bottom: calc(var(--pam) * 2);
+        /*margin-bottom: 15px;*/
+		padding: 0 var(--pam);
+		/*padding: 0 15px;*/
 		flex-grow: 0;
 		flex-shrink: 0;
 		width: 100%;
 		}
-	.grid > .grid__item.grid {
-		margin-left: 0;
-		margin-right: 0;
-		margin-bottom: 15px;
-		padding: 0;
-		}
+        .grid__item > .grid {
+            margin-bottom: calc(0px - (var(--pam) * 2));
+            /*margin-bottom: -15px;*/
+            }
+.grid > .grid__item.grid {
+    margin: 0;
+    padding: 0;
+    }
 
 .grid._2 {
     }
@@ -383,7 +393,7 @@
     .slider__control._next,
     .slider__control._prev {
         position: absolute;
-        top: 50%;
+        top: calc(50% - 12px);
         z-index: 13;
         font-size: 26px;
         cursor: pointer;
