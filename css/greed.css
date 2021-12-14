@@ -214,154 +214,366 @@
         width: calc(100% / 9 * 4);
         }
 
+/*Tablet grid*/
+
+@media (max-width: 960px) {
+
+    .grid._tablet {
+        }
+
+    .grid._tablet > .grid__item:nth-child(n) {
+        width: 100%;
+        }
+
+    .grid._tablet-2 {
+        }
+
+    .grid._tablet-2 > .grid__item:nth-child(n) {
+        width: calc(100% / 2);
+        }
+
+    .grid._tablet-3 {
+        }
+
+    .grid._tablet-3 > .grid__item:nth-child(n) {
+        width: calc(100% / 3);
+        }
+
+    .grid._tablet-4 {
+        }
+
+    .grid._tablet-4 > .grid__item:nth-child(n) {
+        width: calc(100% / 4);
+        }
+
+    .grid._tablet-5 {
+        }
+
+    .grid._tablet-5 > .grid__item:nth-child(n) {
+        width: calc(100% / 5);
+        }
+
+    .grid._tablet-6 {
+        }
+
+    .grid._tablet-6 > .grid__item:nth-child(n) {
+        width: calc(100% / 6);
+        }
+
+    .grid._tablet-2-1 {
+        }
+
+    .grid._tablet-2-1 > .grid__item {
+        width: calc(100% / 3 * 2);
+        }
+
+    .grid._tablet-2-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 3);
+        }
+
+    .grid._tablet-1-2 {
+        }
+
+    .grid._tablet-1-2 > .grid__item {
+        width: calc(100% / 3);
+        }
+
+    .grid._tablet-1-2 > .grid__item:nth-child(2n) {
+        width: calc(100% / 3 * 2);
+        }
+
+    .grid._tablet-3-1 {
+        }
+
+    .grid._tablet-3-1 > .grid__item {
+        width: calc(100% / 4 * 3);
+        }
+
+    .grid._tablet-3-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 4);
+        }
+
+    .grid._tablet-1-3 {
+        }
+
+    .grid._tablet-1-3 > .grid__item {
+        width: calc(100% / 4);
+        }
+
+    .grid._tablet-1-3 > .grid__item:nth-child(2n) {
+        width: calc(100% / 4 * 3);
+        }
+
+    .grid._tablet-1-2-1 {
+        }
+
+    .grid._tablet-1-2-1 > .grid__item {
+        width: calc(100% / 2);
+        }
+
+    .grid._tablet-1-2-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 4);
+        }
+
+    .grid._tablet-1-2-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 4);
+        }
+
+    .grid._tablet-4-1 {
+        }
+
+    .grid._tablet-4-1 > .grid__item {
+        width: calc(100% / 5 * 4);
+        }
+
+    .grid._tablet-4-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 5);
+        }
+
+    .grid._tablet-1-4 {
+        }
+
+    .grid._tablet-1-4 > .grid__item {
+        width: calc(100% / 5);
+        }
+
+    .grid._tablet-1-4 > .grid__item:nth-child(2n) {
+        width: calc(100% / 5 * 4);
+        }
+
+    .grid._tablet-1-3-1 {
+        }
+
+    .grid._tablet-1-3-1 > .grid__item {
+        width: calc(100% / 5 * 3);
+        }
+
+    .grid._tablet-1-3-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 5);
+        }
+
+    .grid._tablet-1-3-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 5);
+        }
+
+    .grid._tablet-5-1 {
+        }
+
+    .grid._tablet-5-1 > .grid__item {
+        width: calc(100% / 6 * 5);
+        }
+
+    .grid._tablet-5-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 6);
+        }
+
+    .grid._tablet-1-5 {
+        }
+
+    .grid._tablet-1-5 > .grid__item {
+        width: calc(100% / 6);
+        }
+
+    .grid._tablet-1-5 > .grid__item:nth-child(2n) {
+        width: calc(100% / 6 * 5);
+        }
+
+    .grid._tablet-1-4-1 {
+        }
+
+    .grid._tablet-1-4-1 > .grid__item {
+        width: calc(100% / 3 * 2);
+        }
+
+    .grid._tablet-1-4-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 6);
+        }
+
+    .grid._tablet-1-4-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 6);
+        }
+
+    }
+
 /*Mobile grid*/
 
-@media (max-width: 767px) {
-    
+@media (max-width: 640px) {
+
     .grid._mobile {
         }
-        .grid._mobile > .grid__item:nth-child(n) {
-            width: 100%;
-            }
-    
+
+    .grid._mobile > .grid__item:nth-child(n) {
+        width: 100%;
+        }
+
     .grid._mobile-2 {
         }
-        .grid._mobile-2 > .grid__item:nth-child(n) {
-            width: calc(100% / 2);
-            }
-    
+
+    .grid._mobile-2 > .grid__item:nth-child(n) {
+        width: calc(100% / 2);
+        }
+
     .grid._mobile-3 {
         }
-        .grid._mobile-3 > .grid__item:nth-child(n) {
-            width: calc(100% / 3);
-            }
-    
+
+    .grid._mobile-3 > .grid__item:nth-child(n) {
+        width: calc(100% / 3);
+        }
+
     .grid._mobile-4 {
         }
-        .grid._mobile-4 > .grid__item:nth-child(n) {
-            width: calc(100% / 4);
-            }
-    
+
+    .grid._mobile-4 > .grid__item:nth-child(n) {
+        width: calc(100% / 4);
+        }
+
     .grid._mobile-5 {
         }
-        .grid._mobile-5 > .grid__item:nth-child(n) {
-            width: calc(100% / 5);
-            }
-    
+
+    .grid._mobile-5 > .grid__item:nth-child(n) {
+        width: calc(100% / 5);
+        }
+
     .grid._mobile-6 {
         }
-        .grid._mobile-6 > .grid__item:nth-child(n) {
-            width: calc(100% / 6);
-            }
-    
+
+    .grid._mobile-6 > .grid__item:nth-child(n) {
+        width: calc(100% / 6);
+        }
+
     .grid._mobile-2-1 {
         }
-        .grid._mobile-2-1 > .grid__item {
-            width: calc(100% / 3 * 2);
-            }
-        .grid._mobile-2-1 > .grid__item:nth-child(2n) {
-            width: calc(100% / 3);
-            }
-    
+
+    .grid._mobile-2-1 > .grid__item {
+        width: calc(100% / 3 * 2);
+        }
+
+    .grid._mobile-2-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 3);
+        }
+
     .grid._mobile-1-2 {
         }
-        .grid._mobile-1-2 > .grid__item {
-            width: calc(100% / 3);
-            }
-        .grid._mobile-1-2 > .grid__item:nth-child(2n) {
-            width: calc(100% / 3 * 2);
-            }
-    
+
+    .grid._mobile-1-2 > .grid__item {
+        width: calc(100% / 3);
+        }
+
+    .grid._mobile-1-2 > .grid__item:nth-child(2n) {
+        width: calc(100% / 3 * 2);
+        }
+
     .grid._mobile-3-1 {
         }
-        .grid._mobile-3-1 > .grid__item {
-            width: calc(100% / 4 * 3);
-            }
-        .grid._mobile-3-1 > .grid__item:nth-child(2n) {
-            width: calc(100% / 4);
-            }
-    
+
+    .grid._mobile-3-1 > .grid__item {
+        width: calc(100% / 4 * 3);
+        }
+
+    .grid._mobile-3-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 4);
+        }
+
     .grid._mobile-1-3 {
         }
-        .grid._mobile-1-3 > .grid__item {
-            width: calc(100% / 4);
-            }
-        .grid._mobile-1-3 > .grid__item:nth-child(2n) {
-            width: calc(100% / 4 * 3);
-            }
-    
+
+    .grid._mobile-1-3 > .grid__item {
+        width: calc(100% / 4);
+        }
+
+    .grid._mobile-1-3 > .grid__item:nth-child(2n) {
+        width: calc(100% / 4 * 3);
+        }
+
     .grid._mobile-1-2-1 {
         }
-        .grid._mobile-1-2-1 > .grid__item {
-            width: calc(100% / 2);
-            }
-        .grid._mobile-1-2-1 > .grid__item:nth-child(3n+1) {
-            width: calc(100% / 4);
-            }
-        .grid._mobile-1-2-1 > .grid__item:nth-child(3n) {
-            width: calc(100% / 4);
-            }
-    
+
+    .grid._mobile-1-2-1 > .grid__item {
+        width: calc(100% / 2);
+        }
+
+    .grid._mobile-1-2-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 4);
+        }
+
+    .grid._mobile-1-2-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 4);
+        }
+
     .grid._mobile-4-1 {
         }
-        .grid._mobile-4-1 > .grid__item {
-            width: calc(100% / 5 * 4);
-            }
-        .grid._mobile-4-1 > .grid__item:nth-child(2n) {
-            width: calc(100% / 5);
-            }
-    
+
+    .grid._mobile-4-1 > .grid__item {
+        width: calc(100% / 5 * 4);
+        }
+
+    .grid._mobile-4-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 5);
+        }
+
     .grid._mobile-1-4 {
         }
-        .grid._mobile-1-4 > .grid__item {
-            width: calc(100% / 5);
-            }
-        .grid._mobile-1-4 > .grid__item:nth-child(2n) {
-            width: calc(100% / 5 * 4);
-            }
-    
+
+    .grid._mobile-1-4 > .grid__item {
+        width: calc(100% / 5);
+        }
+
+    .grid._mobile-1-4 > .grid__item:nth-child(2n) {
+        width: calc(100% / 5 * 4);
+        }
+
     .grid._mobile-1-3-1 {
         }
-        .grid._mobile-1-3-1 > .grid__item {
-            width: calc(100% / 5 * 3);
-            }
-        .grid._mobile-1-3-1 > .grid__item:nth-child(3n+1) {
-            width: calc(100% / 5);
-            }
-        .grid._mobile-1-3-1 > .grid__item:nth-child(3n) {
-            width: calc(100% / 5);
-            }
-    
+
+    .grid._mobile-1-3-1 > .grid__item {
+        width: calc(100% / 5 * 3);
+        }
+
+    .grid._mobile-1-3-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 5);
+        }
+
+    .grid._mobile-1-3-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 5);
+        }
+
     .grid._mobile-5-1 {
         }
-        .grid._mobile-5-1 > .grid__item {
-            width: calc(100% / 6 * 5);
-            }
-        .grid._mobile-5-1 > .grid__item:nth-child(2n) {
-            width: calc(100% / 6);
-            }
-    
+
+    .grid._mobile-5-1 > .grid__item {
+        width: calc(100% / 6 * 5);
+        }
+
+    .grid._mobile-5-1 > .grid__item:nth-child(2n) {
+        width: calc(100% / 6);
+        }
+
     .grid._mobile-1-5 {
         }
-        .grid._mobile-1-5 > .grid__item {
-            width: calc(100% / 6);
-            }
-        .grid._mobile-1-5 > .grid__item:nth-child(2n) {
-            width: calc(100% / 6 * 5);
-            }
-    
+
+    .grid._mobile-1-5 > .grid__item {
+        width: calc(100% / 6);
+        }
+
+    .grid._mobile-1-5 > .grid__item:nth-child(2n) {
+        width: calc(100% / 6 * 5);
+        }
+
     .grid._mobile-1-4-1 {
         }
-        .grid._mobile-1-4-1 > .grid__item {
-            width: calc(100% / 3 * 2);
-            }
-        .grid._mobile-1-4-1 > .grid__item:nth-child(3n+1) {
-            width: calc(100% / 6);
-            }
-        .grid._mobile-1-4-1 > .grid__item:nth-child(3n) {
-            width: calc(100% / 6);
-            }
-        
+
+    .grid._mobile-1-4-1 > .grid__item {
+        width: calc(100% / 3 * 2);
+        }
+
+    .grid._mobile-1-4-1 > .grid__item:nth-child(3n+1) {
+        width: calc(100% / 6);
+        }
+
+    .grid._mobile-1-4-1 > .grid__item:nth-child(3n) {
+        width: calc(100% / 6);
+        }
+
     }
 
 /*Features*/
